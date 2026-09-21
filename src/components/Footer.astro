@@ -1,0 +1,39 @@
+---
+// This CTA links to /book-online, which holds the actual booking embed/placeholder.
+// Not embedding the scheduler directly here since it'd load on every page site-wide.
+---
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <a href="/" class="logo">Diaz Technologies Inc.</a>
+      <p style="margin-top:4px; opacity:0.7; font-size:13px; font-style:italic;">
+        Driving Value Through Sustainable Innovation
+      </p>
+      <p style="margin-top:16px; opacity:0.85; font-size:15px;">
+        734-306-2176<br />
+        <a href="mailto:info@diaztech.net" class="footer-link">info@diaztech.net</a>
+      </p>
+    </div>
+    {/*
+      TODO: "Stay Connected" booking CTA hidden for now (per request) until
+      Sue's Outlook "Bookings with me" link is ready — see the placeholder
+      in src/pages/book-online.astro. Re-enable this block once that's set:
+
+      <div>
+        <h2>Stay Connected</h2>
+        <p style="opacity:0.85; font-size:15px;">Schedule A Free Consultation Today!</p>
+        <a href="/book-online" class="btn-primary" style="background:#fff; color:var(--color-text-primary);">Book Online</a>
+      </div>
+    */}
+    <div>
+      <h2>Site</h2>
+      <ul class="footer-nav">
+        <li><a href="/about" class="footer-link">About</a></li>
+        <li><a href="/materials" class="footer-link">Materials</a></li>
+        <li><a href="/diaz-advantage" class="footer-link">The Diaz Advantage</a></li>
+        <li><a href="/blog" class="footer-link">Blog</a></li>
+        <li><a href="/aboutus" class="footer-link">Accessibility Statement</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import superSacksProject from "../../assets/images/blog-super-sacks-project.webp";
+
+const posts = [
+  {
+    slug: "diaz-technologies-new-collaboration-with-global-pak-on-a-super-sacks-project",
+    title: "Diaz Technologies New Collaboration with Global Pak on a Super Sacks Project",
+    author: "seblackson",
+    date: "Jun 29",
+    readTime: "1 min read",
+    image: superSacksProject,
+  },
+];
+---
+<BaseLayout title="Blog | Diaz Tech Home Page" current="/blog">
+  <section class="section">
+    <div class="container">
+      <h1>All Posts</h1>
+      <div class="grid grid-3">
+        {posts.map((post) => (
+          <a href={`/post/${post.slug}`} class="card">
+            <Image src={post.image} alt={post.title} width={520} loading="eager" />
+            <h3>{post.title}</h3>
+            <p class="company">
+              {post.author} · {post.date} · {post.readTime}
+            </p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

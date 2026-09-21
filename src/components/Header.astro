@@ -1,0 +1,49 @@
+---
+const { current = "" } = Astro.props;
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/materials", label: "Materials" },
+  { href: "/diaz-advantage", label: "Advantage" },
+  { href: "/blog", label: "Blog" },
+  { href: "/book-online", label: "Book Online" },
+];
+---
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">Diaz Technologies Inc</a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <nav>
+      <ul class="site-nav" id="site-nav">
+        {links.map((link) => (
+          <li>
+            <a href={link.href} aria-current={current === link.href ? "page" : undefined}>
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById("nav-toggle");
+  const nav = document.getElementById("site-nav");
+
+  toggle?.addEventListener("click", () => {
+    const isOpen = nav?.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
+  });
+
+  nav?.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement).tagName === "A") {
+      nav.classList.remove("is-open");
+      toggle?.setAttribute("aria-expanded", "false");
+    }
+  });
+</script>

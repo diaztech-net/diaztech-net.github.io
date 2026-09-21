@@ -1,0 +1,213 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import servicePlasticBottles from "../assets/images/service-plastic-bottles.webp";
+import servicePurpleBottles from "../assets/images/service-purple-bottles.webp";
+import servicePelletProcessing from "../assets/images/service-pellet-processing.webp";
+import serviceOfficeEmployees from "../assets/images/service-office-employees.webp";
+import whyMinimalProductDisplay from "../assets/images/why-minimal-product-display.webp";
+import whyHandshakeCloseup from "../assets/images/why-handshake-closeup.webp";
+import whyBulldozerClearingWaste from "../assets/images/why-bulldozer-clearing-waste.webp";
+
+const testimonials = [
+  {
+    quote:
+      "Working with Diaz Technologies Inc. has revolutionized our approach to sustainability. Their expertise in post-consumer resin has enabled us to create more eco-friendly products.",
+    name: "John Gardner",
+    company: "Ameriflex LLC",
+  },
+  {
+    quote:
+      "Diaz Technologies Inc. commitment to quality and sustainability is unmatched. Their resin solutions have significantly reduced our environmental footprint.",
+    name: "Buddy Harvey",
+    company: "Summit Polymers LLC",
+  },
+  {
+    quote:
+      "The collaborative efforts with Diaz Technologies Inc. have led to innovative recycling solutions that benefit both our business and the planet.",
+    name: "Rick Sofia",
+    company: "San Pallets Inc",
+  },
+];
+
+const services = [
+  {
+    image: servicePlasticBottles,
+    title: "Sales of Sustainable Resin",
+    alt: "Plastic Bottles",
+  },
+  {
+    image: servicePurpleBottles,
+    title: "Consult on Open and Close Loop Recycling Services",
+    alt: "Purple Bottles",
+  },
+  {
+    image: servicePelletProcessing,
+    title: "Collaborate for Category Management Optimization",
+    alt: "Plastic Pellet Processing",
+  },
+  {
+    image: serviceOfficeEmployees,
+    title: "Collaborate for Manufacturing Optimization",
+    alt: "Office Employees",
+  },
+];
+
+const whyUs = [
+  {
+    image: whyMinimalProductDisplay,
+    title: "Innovative Resin Solutions",
+    text: "We provide high-quality post-consumer resins that meet industry standards, helping businesses transition to more sustainable product lines.",
+    alt: "Minimal Product Display",
+  },
+  {
+    image: whyHandshakeCloseup,
+    title: "Collaborative Partnerships",
+    text: "Our partnerships with leading resin suppliers and recycling initiatives ensure a steady supply of sustainable materials and ongoing innovation.",
+    alt: "Handshake Close-Up",
+  },
+  {
+    image: whyBulldozerClearingWaste,
+    title: "Commitment to Sustainability",
+    text: "At Diaz Technologies Inc. we are dedicated to promoting a circular economy through continuous improvement and strategic resource management.",
+    alt: "Bulldozer Clearing Waste",
+  },
+];
+---
+<BaseLayout title="Diaz Technologies Inc | need for sustainable resins and recycling services" current="/">
+  <section class="hero">
+    <div class="container">
+      <h1>Sustainable Solutions</h1>
+      <p>Transforming Waste into Valuable Resources through Innovation and Collaboration</p>
+      <a href="/about" class="btn-primary">Get Your Free Consultation Today</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-heading">Our Services</h2>
+      <div class="grid grid-4">
+        {services.map((s) => (
+          <div class="card">
+            <Image src={s.image} alt={s.alt} width={520} loading="eager" />
+            <h3>{s.title}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#faf9fb;">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p style="max-width:700px;">
+        Diaz Technologies Inc. specializes in the selling of post-consumer resin, providing
+        innovative solutions for recycling and sustainable product development. We partner with
+        leading suppliers and engage in initiatives that promote the circular economy, ensuring
+        that materials are reused and repurposed effectively.
+      </p>
+      <a href="mailto:ar.moxey@diaztech.net?subject=Requesting%20Information" class="btn-primary">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>What Our Partners Say</h2>
+      <div class="grid grid-3">
+        {testimonials.map((t) => (
+          <div class="testimonial">
+            <p class="quote">&ldquo;{t.quote}&rdquo;</p>
+            <p class="attribution">&mdash; {t.name}, {t.company}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#faf9fb;">
+    <div class="container">
+      <h2>Why Work With Us</h2>
+      <div class="grid grid-3">
+        {whyUs.map((w) => (
+          <div class="card">
+            <Image src={w.image} alt={w.alt} width={520} loading="lazy" />
+            <h3>{w.title}</h3>
+            <p>{w.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-heading">Contact</p>
+      <h2>Let's Connect</h2>
+      <p style="max-width:600px;">
+        If you would like to hear more or explore partnership opportunities, we're here to help.
+        Reach out using the form below.
+      </p>
+      <form id="contact-form">
+        <div>
+          <label for="first-name">First name *</label>
+          <input type="text" id="first-name" name="first-name" required />
+        </div>
+        <div>
+          <label for="last-name">Last name *</label>
+          <input type="text" id="last-name" name="last-name" required />
+        </div>
+        <div>
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+      <p class="notice">
+        Submitting this form opens the visitor's own email client with a message pre-addressed
+        and pre-filled, which they then send themselves — this is a static site with no backend,
+        so there's no way to silently send mail server-side without wiring up a third-party form
+        service (e.g. Formspree). Swap in a real form handler here if silent submission is wanted
+        later.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const CONTACT_EMAIL = "SusanBlackson@diaztech.net";
+
+  const form = document.getElementById("contact-form") as HTMLFormElement | null;
+
+  form?.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const data = new FormData(form);
+    const firstName = String(data.get("first-name") ?? "").trim();
+    const lastName = String(data.get("last-name") ?? "").trim();
+    const email = String(data.get("email") ?? "").trim();
+    const phone = String(data.get("phone") ?? "").trim();
+    const message = String(data.get("message") ?? "").trim();
+
+    const subject = `Website inquiry from ${firstName} ${lastName}`.trim();
+    const bodyLines = [
+      `Name: ${firstName} ${lastName}`.trim(),
+      `Email: ${email}`,
+      phone && `Phone: ${phone}`,
+      "",
+      message,
+    ].filter((line): line is string => Boolean(line) || line === "");
+
+    const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+    window.location.href = mailto;
+  });
+</script>

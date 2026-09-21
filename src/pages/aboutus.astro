@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Accessibility Statement | Diaz Tech Home Page" current="">
+  <section class="section">
+    <div class="container">
+      <h1>Accessibility Statement</h1>
+      <p style="color:var(--color-muted); font-size:14px;">Last updated: September 21, 2026</p>
+
+      <p>
+        Diaz Technologies Inc. is committed to making www.diaztech.net usable for as many
+        visitors as possible, including people with disabilities. This page describes what
+        we've actually done toward that, and what's still outstanding. We'd rather this be
+        accurate than aspirational.
+      </p>
+
+      <h2>What's in place</h2>
+      <ul style="padding-left:18px;">
+        <li>Page content is structured with a logical, sequential heading order</li>
+        <li>Images have descriptive alternative text</li>
+        <li>Navigation, including the mobile menu, is fully operable by keyboard alone</li>
+        <li>Clickable elements are sized and spaced to standard touch-target guidelines</li>
+        <li>Form fields are labeled for screen reader compatibility</li>
+      </ul>
+
+      <h2>What this site doesn't need to worry about</h2>
+      <p>
+        This is a static, content-focused site. We don't publish audio or video, so
+        requirements like captioning, transcripts, and audio descriptions don't apply here.
+      </p>
+
+      <h2>What's still outstanding</h2>
+      <p>
+        We haven't completed a full manual accessibility audit — this page reflects targeted
+        fixes plus automated testing, not a comprehensive screen-reader pass or a tool like axe
+        or WAVE. Known open items:
+      </p>
+      <ul style="padding-left:18px;">
+        <li>Color contrast hasn't been verified against every part of the homepage's gradient background</li>
+        <li>There's no "skip to main content" link for keyboard users yet</li>
+      </ul>
+
+      <h2>Requests, issues, and suggestions</h2>
+      <p>
+        If you find an accessibility issue on the site, or need assistance, you're welcome to
+        contact us through the organization's accessibility coordinator:
+      </p>
+      <p>
+        Aliya Moxey<br />
+        734-999-8453<br />
+        <a href="mailto:ar.moxey@diaztech.net">ar.moxey@diaztech.net</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import robertEgbers from "../assets/images/team-robert-egbers.png";
+import susanBlackson from "../assets/images/team-susan-blackson.jpg";
+import aliyaMoxey from "../assets/images/team-aliya-moxey.png";
+import erickStott from "../assets/images/team-erick-stott.png";
+import jakeNulty from "../assets/images/team-jake-nulty.png";
+import latarioMoxey from "../assets/images/team-latario-moxey.jpg";
+import benjaminEpstein from "../assets/images/team-benjamin-epstein.png";
+
+const team = [
+  {
+    image: robertEgbers,
+    name: "Robert Egbers",
+    role: "Vice President of Sales",
+    bio: "Recognized leader in automotive business improvement with 45 years of experience. Sales and marketing management professional with demonstrated sales and technical achievements, innovation and leadership skills providing internal growth. Energetic, friendly and reliable with a strong work ethic.",
+  },
+  {
+    image: susanBlackson,
+    name: "Susan Blackson",
+    role: "Director of Business Development",
+    bio: "Energetic leader of Global teams, with a successful track record of new business development, cost reduction via low cost sourcing, engaging both domestic as well as international suppliers. Experienced business manager, Procurement professional and Senior Category Manager, leading initiatives with Program Management vigor and Lean Principles.",
+  },
+  {
+    image: aliyaMoxey,
+    name: "Aliya Moxey",
+    role: "Supply Chain Manager",
+    bio: "Supply chain professional and industrial experience in healthcare, retail firms and packaging with a continuous improvement focus and supervisory experience.",
+  },
+  {
+    image: erickStott,
+    name: "Erick Stott",
+    role: "Interal Sales Coordinator",
+    bio: "Energetic and customer-focused sales coordinator with highly regarded critical thinking and problem-solving skills. Performs well as a team player and keeps updated and adapts to changes in the marketplace.",
+  },
+  {
+    image: jakeNulty,
+    name: "Jake Nulty",
+    role: "Communications Specialist",
+    bio: "I am an author with a passion for coding. I've created technical content and thought leadership pieces that reach millions. Additionally, I manage publications focused on technology, software development, AI, philosophy, and faith. I provide a unique voice to projects while enhancing SEO, and I develop framework-agnostic systems, transforming ideas into tangible products.",
+  },
+  {
+    image: latarioMoxey,
+    name: "Latario Moxey",
+    role: "Information Technology Supervisor",
+    bio: "My occupational interest lies in Emergency Management, Safety and Security. I have ten-plus years of professional security and surveillance experience, including supervisory responsibility. I am becoming certified in fields of Information Technology and Cyber Security.",
+  },
+  {
+    image: benjaminEpstein,
+    name: "Benjamin Epstein",
+    role: "Market Analyst",
+    bio: "I am a finance and research professional with experience in derivatives analysis, health economics, academic research, and regulatory review. He currently serves as a CRMP Derivatives Officer at Comerica Bank, analyzing over $560 million in daily FX, energy, and interest-rate derivatives. His background includes supporting major health policy projects at PRECISIONheor, conducting opioid-mortality research at Indiana University, reviewing UCC filings at the Federal Reserve Bank of Chicago.",
+  },
+];
+---
+<BaseLayout title="About | Diaz Tech Home Page" current="/about">
+  <section class="section">
+    <div class="container">
+      <h1>About Us</h1>
+      <p class="section-heading" style="margin-top:32px;">Partner with Us</p>
+      <p style="max-width:760px;">
+        At Diaz Technologies, we are dedicated to promoting a circular economy through the sale
+        of high-quality Post Consumer Resin (PCR). Our focus is on strengthening partnerships
+        with resin suppliers, optimizing category management, and implementing innovative
+        recycling initiatives in collaboration with industry leaders. Together, we are paving the
+        way for a sustainable future.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>About Our Team</h2>
+      <div class="grid grid-3">
+        {team.map((member) => (
+          <div class="team-member">
+            <Image
+              src={member.image}
+              alt={member.name}
+              width={344}
+              loading="lazy"
+              style="border-radius:50%; width:120px; height:120px; object-fit:cover; margin-bottom:12px;"
+            />
+            <h3>{member.name}</h3>
+            <p class="role">{member.role}</p>
+            <p>{member.bio}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

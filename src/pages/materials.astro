@@ -1,0 +1,88 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import offering1 from "../assets/images/offering-1-homopolymer-pp.jpg";
+import offering2 from "../assets/images/offering-2-homopolymer-pp-recycled.png";
+import offering3 from "../assets/images/offering-3-hpp-black-high-flow.png";
+import offering4 from "../assets/images/offering-4-recycled-copolymer-pp.png";
+
+const materials = [
+  {
+    image: offering1,
+    title: "Homopolymer Polypropolene",
+    subtitle: "37 Melt Flow | 0.90 Specific Gravity",
+    features: [
+      "Transparent pellets with a hue",
+      "Homopolymer Polypropylene",
+      "37 melt flow rate",
+      "Suitable for injection molding applications",
+      "Passed visual contamination inspection",
+    ],
+  },
+  {
+    image: offering2,
+    title: "Homopolymer Polypropolene",
+    subtitle: "Post Industrial Recycled Material | Injection Molding",
+    features: [
+      "Recycled homopolymer polypropylene",
+      "Post-Consumer Recycled (PCR)",
+      "Intended primarily for injection molding",
+      "Mixed-Color Pellet Form",
+      "Feedstock: FIBC",
+    ],
+  },
+  {
+    image: offering3,
+    title: "HPP Black High Flow",
+    subtitle: "115 Melt Flow Rate | High Flow Homopolymer",
+    features: [
+      "High Flow Homopolymer Polypropylene",
+      "Excellent Mold Filling",
+      "Designed for Injection Molding",
+      "Consistent Processing Performance",
+      "Black Pre-Colored Compound",
+      "Passed visual contamination inspection",
+    ],
+  },
+  {
+    image: offering4,
+    title: "Recycled Copolymer Polypropylene",
+    subtitle: "Post-Industrial Recycled Material | Injection Molding and Extrusion",
+    features: [
+      "Recycled Copolymer polypropylene",
+      "Post-Consumer Recycled (PCR)",
+      "Suitable for injection molding and extrusion",
+      "100% polypropylene content",
+      "Black/Grey pellet form",
+      "Feedstock: FIBC",
+    ],
+  },
+];
+---
+<BaseLayout title="Materials | Diaz Tech Home Page" current="/materials">
+  <section class="section">
+    <div class="container">
+      <h1>Our Materials</h1>
+      <h2 style="margin-top:32px;">Explore Your Options through Our Collection</h2>
+      <p style="max-width:760px;">
+        Diaz Technologies supplies post-consumer and post-industrial recycled polypropylene
+        grades, sourced and processed for injection molding and extrusion applications.
+      </p>
+      <div class="grid grid-4">
+        {materials.map((m) => (
+          <div class="card">
+            <Image src={m.image} alt={m.title} width={420} loading="lazy" />
+            <h3>{m.title}</h3>
+            <p class="company">{m.subtitle}</p>
+            <p style="font-weight:700; font-size:14px; margin-bottom:8px;">KEY FEATURES</p>
+            <ul style="padding-left:18px; font-size:15px;">
+              {m.features.map((f) => (
+                <li>{f}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

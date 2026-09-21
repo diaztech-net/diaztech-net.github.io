@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const advantages = [
+  {
+    title: "Sustainable Resins",
+    text: "PCR content across our resin lines, produced through a verified supply chain.",
+    pendingNotice:
+      "Green Circle certification status: pending confirmation before this is asserted on the site.",
+  },
+  {
+    title: "Resin Diversity",
+    text: "Several polypropylene grades with multiple PCR sources, available in pencil prime and wide spec grades.",
+  },
+  {
+    title: "Brand Prime Relationships",
+    text: "Celanese, Evonik, INEOS, Arkema, ExxonMobil, Phillips, LYB, Formosa.",
+  },
+  {
+    title: "Compounding Assets",
+    text: "A wide range of resin families, color, fillers and additives, with custom formulations available to include defined recycled content.",
+  },
+  {
+    title: "Technical Support and Engineering Services",
+    text: "Product development, prototype support, and production planning.",
+  },
+  {
+    title: "Logistical Solutions",
+    text: "Local warehouses across the U.S. with consignment options.",
+  },
+];
+
+const partners = [
+  { name: "RTi", role: "Category Management and Optimization" },
+  { name: "Enpol", role: "Virgin Resin Supplier partnership" },
+  {
+    name: "Summit Polymers, Valley and Adirondack Plastics",
+    role: "Scrap audit and recycling initiatives",
+  },
+  {
+    name: "American Texturing",
+    role: "Textile development, embedding coatings and additives",
+  },
+  { name: "Infinite Business Strategies", role: "Continuous Improvement programs" },
+  { name: "Verisys Registrars", role: "ISO Audit and reporting" },
+];
+---
+<BaseLayout title="The Diaz Advantage | Diaz Tech Home Page" current="/diaz-advantage">
+  <section class="section">
+    <div class="container">
+      <h1>The Diaz Advantage</h1>
+      <h2>Our Advantages</h2>
+      <div class="grid grid-3">
+        {advantages.map((a) => (
+          <div class="card">
+            <h3>{a.title}</h3>
+            <p>{a.text}</p>
+            {a.pendingNotice && <p class="notice">{a.pendingNotice}</p>}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#faf9fb;">
+    <div class="container">
+      <h2>Our Partnerships</h2>
+      <div class="grid grid-3">
+        {partners.map((p) => (
+          <div class="team-member">
+            <h3>{p.name}</h3>
+            <p class="role">{p.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
