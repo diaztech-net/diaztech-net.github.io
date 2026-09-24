@@ -1,18 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import superSacksProject from "../../assets/images/blog-super-sacks-project.webp";
+import { getPosts, formatDate, readTime } from "../../lib/blog";
 
-const posts = [
-  {
-    slug: "diaz-technologies-new-collaboration-with-global-pak-on-a-super-sacks-project",
-    title: "Diaz Technologies New Collaboration with Global Pak on a Super Sacks Project",
-    author: "seblackson",
-    date: "Jun 29",
-    readTime: "1 min read",
-    image: superSacksProject,
-  },
-];
+const posts = await getPosts();
 ---
 <BaseLayout title="Blog | Diaz Tech Home Page" current="/blog">
   <section class="section">
@@ -21,10 +12,10 @@ const posts = [
       <div class="grid grid-3">
         {posts.map((post) => (
           <a href={`/post/${post.slug}`} class="card">
-            <Image src={post.image} alt={post.title} width={520} loading="eager" />
-            <h3>{post.title}</h3>
+            <Image src={post.data.cover} alt={post.data.coverAlt ?? post.data.title} width={520} loading="eager" />
+            <h3>{post.data.title}</h3>
             <p class="company">
-              {post.author} · {post.date} · {post.readTime}
+              {post.data.author} · {formatDate(post.data.date)} · {readTime(post)}
             </p>
           </a>
         ))}

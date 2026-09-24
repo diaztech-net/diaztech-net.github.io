@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPosts, formatDate, readTime, type Post } from "../../lib/blog";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props as { post: Post };
+const { Content } = await post.render();
+const { title, author, date, cover, coverAlt, description } = post.data;
+---
+<BaseLayout title={title} description={description} current="/blog">
+  <section class="section">
+    <div class="container" style="max-width:800px;">
+      <a href="/blog" style="font-size:14px; color:var(--color-muted);">&larr; All Posts</a>
+      <h1>{title}</h1>
+      <p class="company">
+        {author} · <time datetime={date.toISOString()}>{formatDate(date)}</time> · {readTime(post)}
+      </p>
+      <Image
+        src={cover}
+        alt={coverAlt ?? title}
+        width={800}
+        loading="eager"
+        fetchpriority="high"
+        style="border-radius:var(--radius-card); margin:24px 0;"
+      />
+      <div class="post-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
