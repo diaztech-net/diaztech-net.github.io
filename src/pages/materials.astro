@@ -6,11 +6,30 @@ import offering2 from "../assets/images/offering-2-homopolymer-pp-recycled.png";
 import offering3 from "../assets/images/offering-3-hpp-black-high-flow.png";
 import offering4 from "../assets/images/offering-4-recycled-copolymer-pp.png";
 
+// Transcribed from the product technical data sheets.
 const materials = [
   {
+    sku: "530035",
     image: offering1,
-    title: "Homopolymer Polypropolene",
-    subtitle: "37 Melt Flow | 0.90 Specific Gravity",
+    imageAlt: "Transparent homopolymer polypropylene pellets with a hue",
+    title: "Homopolymer Polypropylene",
+    subtitle: "37 Melt Flow Rate | 0.90 Specific Gravity",
+    description:
+      "SKU 530035 is a homopolymer polypropylene supplied in natural pellet form. This material offers a nominal melt flow rate of 37 g/10 min, a specific gravity of 0.90 and consistent physical properties suitable for injection molding applications.",
+    profile: [
+      ["Polymer", "Homopolymer"],
+      ["Recycled content category", "Mixed Rigids"],
+      ["Primary application", "Injection Molding"],
+      ["Appearance", "Transparent with Hue"],
+      ["SKU", "530035"],
+    ],
+    tests: [
+      ["Melt Flow Rate (230°C / 2.16 kg)", "ASTM D1238", "g/10 min", "37"],
+      ["Specific Gravity", "ASTM D792", "g/cm³", "0.90"],
+      ["Tensile Strength", "ASTM D638", "psi", "4,200"],
+      ["Flexural Modulus (Tangent Method)", "ASTM D790", "ksi", "160"],
+      ["Notched Izod Impact", "ASTM D256", "ft-lb/in", "0.60"],
+    ],
     features: [
       "Transparent pellets with a hue",
       "Homopolymer Polypropylene",
@@ -18,11 +37,36 @@ const materials = [
       "Suitable for injection molding applications",
       "Passed visual contamination inspection",
     ],
+    technicalNote:
+      "The material is supplied in pellet form and has been evaluated for melt flow, density, mechanical properties, and visual quality to support processing consistency and performance.",
   },
   {
+    sku: "230109",
     image: offering2,
-    title: "Homopolymer Polypropolene",
-    subtitle: "Post Industrial Recycled Material | Injection Molding",
+    imageAlt: "Hand holding mixed-color recycled homopolymer polypropylene pellets",
+    title: "Recycled Homopolymer Polypropylene",
+    subtitle: "Post-Industrial Recycled Material | Injection Molding",
+    description:
+      "Recycled homopolymer polypropylene intended primarily for injection molding applications. The supplied source identifies the material as post-consumer recycled (PCR) with a mixed-color appearance.",
+    profile: [
+      ["Polymer", "Homopolymer polypropylene"],
+      ["Recycled content category", "PCR - Yes"],
+      ["Primary application", "Injection molding"],
+      ["Appearance", "Mixed-color pellets"],
+      ["SKU", "230109"],
+    ],
+    tests: [
+      ["Melt Index (190°C / 2.16 kg)", "ASTM D1238", "g/10 min", "9.0"],
+      ["Density", "ASTM D792", "g/cm³", "0.95"],
+      ["Notched Izod Impact Strength", "ASTM D256", "ft-lb/in", "0.75"],
+      ["Tensile Strength", "ASTM D638", "MPa", "26.0"],
+      ["Tensile Strength", "ASTM D638", "psi", "4,000"],
+      ["Elongation at Yield", "ASTM D638", "%", "15"],
+      ["Flexural Modulus", "ASTM D790", "MPa", "1,300"],
+      ["Flexural Modulus", "ASTM D790", "psi", "190,000"],
+      ["Ash Content", "ASTM D5630", "%", "2.0"],
+      ["Color", "–", "–", "Mixed"],
+    ],
     features: [
       "Recycled homopolymer polypropylene",
       "Post-Consumer Recycled (PCR)",
@@ -30,11 +74,34 @@ const materials = [
       "Mixed-Color Pellet Form",
       "Feedstock: FIBC",
     ],
+    technicalNote:
+      "Values shown are typical laboratory results from the supplied source data and are not product specifications.",
   },
   {
+    sku: "2301100",
     image: offering3,
+    imageAlt: "Black high flow homopolymer polypropylene pellets",
     title: "HPP Black High Flow",
     subtitle: "115 Melt Flow Rate | High Flow Homopolymer",
+    description:
+      "HPP Black High Flow is a high flow homopolymer polypropylene supplied in black pellet form. This material offers a melt flow rate of 115 g/10 min and consistent physical properties suitable for injection molding applications.",
+    profile: [
+      ["Polymer", "Homopolymer"],
+      ["Recycled content category", "Carpet from Convention Shows"],
+      ["Primary application", "Injection Molding"],
+      ["Appearance", "Black Pellets"],
+      ["SKU", "2301100"],
+    ],
+    tests: [
+      ["Melt Flow Rate (230°C / 2.16 kg)", "ASTM D1238", "g/10 min", "115"],
+      ["Specific Gravity", "ASTM D792", "g/cm³", "0.90"],
+      ["Tensile Strength", "ASTM D638", "psi", "3,300"],
+      ["Tensile Elongation", "ASTM D638", "%", "2.8"],
+      ["Flexural Strength", "ASTM D790", "psi", "3,800"],
+      ["Flexural Modulus (Tangent Method)", "ASTM D790", "psi", "115,000"],
+      ["Notched Izod Impact", "ASTM D256", "ft-lb/in", "0.92"],
+      ["Ash Content", "ASTM D2584", "%", "0.0"],
+    ],
     features: [
       "High Flow Homopolymer Polypropylene",
       "Excellent Mold Filling",
@@ -45,9 +112,33 @@ const materials = [
     ],
   },
   {
+    sku: "230103",
     image: offering4,
+    imageAlt: "Black/grey recycled copolymer polypropylene pellets",
     title: "Recycled Copolymer Polypropylene",
     subtitle: "Post-Industrial Recycled Material | Injection Molding and Extrusion",
+    description:
+      "Recycled copolymer polypropylene is intended for injection molding and extrusion applications. The material is supplied as black/grey pellets and is identified as post-consumer recycled (PCR).",
+    profile: [
+      ["Polymer", "Copolymer polypropylene"],
+      ["Recycled content category", "PCR - Yes"],
+      ["PP content", "100%"],
+      ["Appearance", "Black/Grey pellets"],
+      ["SKU", "230103"],
+    ],
+    tests: [
+      ["Melt Index (190°C / 2.16 kg)", "ASTM D1238", "g/10 min", "3"],
+      ["Density", "ASTM D792", "g/cm³", "0.95"],
+      ["Notched Izod Impact Strength", "ASTM D256", "ft-lb/in", "3.0"],
+      ["Tensile Strength", "ASTM D638", "psi", "3,200"],
+      ["Elongation at Break", "ASTM D638", "%", "20"],
+      ["Flexural Modulus", "ASTM D790", "psi", "150,000"],
+      ["Flexural Strength", "ASTM D790", "psi", "2,800"],
+      ["Ash Content", "ASTM D5630", "%", "2.0"],
+      ["Specific Gravity", "ASTM D792", "–", "0.95"],
+      ["PP Content", "–", "%", "100"],
+      ["Color", "–", "–", "Black/Grey"],
+    ],
     features: [
       "Recycled Copolymer polypropylene",
       "Post-Consumer Recycled (PCR)",
@@ -56,8 +147,12 @@ const materials = [
       "Black/Grey pellet form",
       "Feedstock: FIBC",
     ],
+    technicalNote:
+      "Values shown are typical laboratory results from the supplied source data and are not product specifications.",
   },
 ];
+
+const CONTACT_EMAIL = "seblackson@diaztech.net";
 ---
 <BaseLayout title="Materials | Diaz Tech Home Page" current="/materials">
   <section class="section">
@@ -68,21 +163,117 @@ const materials = [
         Diaz Technologies supplies post-consumer and post-industrial recycled polypropylene
         grades, sourced and processed for injection molding and extrusion applications.
       </p>
-      <div class="grid grid-4">
+      <ul class="material-index">
         {materials.map((m) => (
-          <div class="card">
-            <Image src={m.image} alt={m.title} width={420} loading="lazy" />
-            <h3>{m.title}</h3>
-            <p class="company">{m.subtitle}</p>
-            <p style="font-weight:700; font-size:14px; margin-bottom:8px;">KEY FEATURES</p>
-            <ul style="padding-left:18px; font-size:15px;">
-              {m.features.map((f) => (
-                <li>{f}</li>
+          <li><a href={`#sku-${m.sku}`}>{m.title} <span>SKU {m.sku}</span></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  {materials.map((m) => (
+    <section class="material" id={`sku-${m.sku}`}>
+      <div class="container">
+        <div class="product-detail">
+          <Image src={m.image} alt={m.imageAlt} width={Math.min(640, m.image.width)} loading="lazy" class="material-image" />
+          <div>
+            <p class="section-heading">SKU {m.sku}</p>
+            <h2 class="material-title">{m.title}</h2>
+            <p class="material-subtitle">{m.subtitle}</p>
+            <p>{m.description}</p>
+            <h3 class="material-label">Material Profile</h3>
+            <dl class="material-profile">
+              {m.profile.map(([k, v]) => (
+                <div><dt>{k}</dt><dd>{v}</dd></div>
               ))}
+            </dl>
+          </div>
+        </div>
+
+        <details class="spec-details" open>
+        <summary>
+          <h3 class="material-label">Typical Test Results</h3>
+          <span class="spec-toggle-label" aria-hidden="true"></span>
+        </summary>
+        <div class="spec-table-wrap">
+          <table class="spec-table">
+            <thead>
+              <tr><th scope="col">Property</th><th scope="col" class="spec-method">Test Method</th><th scope="col">Unit</th><th scope="col">Typical Value</th></tr>
+            </thead>
+            <tbody>
+              {m.tests.map(([prop, method, unit, value]) => (
+                <tr>
+                  <th scope="row">
+                    {prop}
+                    {method !== "–" && <span class="spec-method-inline">{method}</span>}
+                  </th>
+                  <td class="spec-method">{method}</td><td>{unit}</td><td>{value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        </details>
+
+        <div class="material-extras">
+          <div>
+            <h3 class="material-label">Key Features</h3>
+            <ul class="material-features">
+              {m.features.map((f) => <li>{f}</li>)}
             </ul>
           </div>
-        ))}
+          {m.technicalNote && (
+            <div>
+              <h3 class="material-label">Technical Note</h3>
+              <p>{m.technicalNote}</p>
+            </div>
+          )}
+        </div>
+
+        <a
+          href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Inquiry: ${m.title} (SKU ${m.sku})`)}`}
+          class="btn-primary"
+        >
+          Request Samples or Pricing
+        </a>
       </div>
+    </section>
+  ))}
+
+  <section class="section">
+    <div class="container">
+      <p class="notice">
+        For availability, samples, pricing, or technical assistance, contact Susan Blackson,
+        Director of Business Development, at
+        <a href={`mailto:${CONTACT_EMAIL}`} style="text-decoration:underline;">{CONTACT_EMAIL}</a>.
+      </p>
+      <p class="material-disclaimer">
+        <strong>Disclaimer:</strong> The data presented herein represents test results obtained
+        from laboratory evaluation and is believed to be accurate. Values should not be construed
+        as product specifications or warranties of performance. Users are responsible for
+        determining suitability for their specific applications, processing conditions, and
+        regulatory requirements.
+      </p>
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  // Spec tables are collapsible on mobile only; on wider screens they're
+  // always expanded and the summary acts as a plain heading.
+  const mobile = window.matchMedia("(max-width: 600px)");
+  const tables = document.querySelectorAll<HTMLDetailsElement>(".spec-details");
+
+  function sync() {
+    tables.forEach((d) => (d.open = !mobile.matches));
+  }
+
+  tables.forEach((d) =>
+    d.querySelector("summary")!.addEventListener("click", (e) => {
+      if (!mobile.matches) e.preventDefault();
+    })
+  );
+
+  sync();
+  mobile.addEventListener("change", sync);
+</script>
