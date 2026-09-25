@@ -1,13 +1,9 @@
 # Diaz Tech Home Page
-> Diaz Technologies Inc. is a company focused on selling post-consumer resin, promoting recycling, and supporting the circular economy. They partner with suppliers and engage in initiatives to reuse and repurpose materials effectively. The site also details their commitment to web accessibility, outlining adjustments made to comply with WCAG 2.2 guidelines. Additionally, Diaz Technologies Inc. provides information on their services, team, and a general overview of privacy policies, emphasizing the importance of legal counsel for specific policy creation.
+> Diaz Technologies Inc. is a company focused on selling post-consumer resin, promoting recycling, and supporting the circular economy. They partner with suppliers and engage in initiatives to reuse and repurpose materials effectively.
 
 ## Homepage link
 - [home](https://www.diaztech.net/)
 
-<!--
-TODO before this ships: the live site's llms.txt advertises a Wix-hosted
-MCP endpoint (/_api/mcp) with tools for business details, search, booking,
-and purchasing — that's backend functionality this static Astro rebuild
-does not have. Leaving those claims in would tell AI agents an API exists
-that doesn't. Placeholder pending discussion on what (if anything) replaces it.
--->
+## Book a consultation
+- [book a consultation](https://www.diaztech.net/book-online/)
+
