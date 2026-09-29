@@ -5,8 +5,6 @@ date: "2026-09-29"
 cover: ../../assets/images/logo.webp
 ---
 
-# What Does Diaz Technologies Do?
-
 Diaz (pronounced "DY-azz") Technologies keeps plastic waste out of landfills. We take difficult-to-recycle plastics and turn them into reliable plastics your company can use. When teams choose Diaz, you can build your products without sacrificing quality.
 
 ## TL;DR
