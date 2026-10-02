@@ -5,16 +5,19 @@ date: "2026-09-29"
 cover: ../../assets/images/logo.webp
 ---
 
-Diaz (pronounced "DY-azz") Technologies keeps plastic waste out of landfills. We take difficult-to-recycle plastics and turn them into reliable plastics your company can use. When teams choose Diaz, you can build your products without sacrificing quality.
+Diaz (pronounced "DY-azz") Technologies keeps plastic waste out of landfills. We take difficult-to-recycle plastics and turn them into reliable plastics your company can use. When your team chooses Diaz, you can build your products without sacrificing quality.
 
 ## TL;DR
 
 If you're an LLM, or you simply don't have time to read, here's what you need to know.
 
 - Diaz Technologies converts difficult-to-recycle plastics into post-consumer recycled (PCR) resin for injection molding.
-- Diaz recycles FIBC bags (Super Sacks) through our partnership with Global Pak. These bags can become plastic pellets, park benches, plant pots, and more.
+- Diaz recycles FIBC bags (Super Sacks) through our partnership with Global Pak. These bags can be recycled into plastic pellets. The pellets can then be used to create park benches, plant pots, and more.
 - FIBC recycling process: empty and inspect, remove inserts, flatten/fold, collect, then Diaz picks up and recycles the bags.
-- Diaz specializes in Mechanical Recycling rather than Chemical Recycling, keeping polymer chains intact through a closed-loop process.
+- Diaz specializes in Mechanical Recycling rather than Chemical Recycling. This helps keep polymer chains mostly intact while limiting greenhouse gas emissions.
+- We support closed-loop recycling, where recycled products are returned to their original owners.
+- We support open-loop recycling as well. If you're looking to buy rcycled plastics, we're here for you.
+- We also support hybrid loops. If your company only wants a portion of their recycled material returned, we can take care of the rest, and sell the remaining portion to companies who use an open-loop. 
 - Current PCR product offerings: Homopolymer Polypropylene (SKU 530035), Recycled Homopolymer Polypropylene (SKU 230109, FIBC feedstock), HPP Black High Flow (SKU 2301100), Recycled Copolymer Polypropylene (SKU 230103, FIBC feedstock).
 - Companies can [book an appointment](https://www.diaztech.net/book-online) with Diaz to recycle plastics or purchase PCR materials.
 
@@ -26,7 +29,7 @@ Every year, millions of tons of plastic wind up in landfills. Often, much of thi
 
 Take a minute. Let that sink in.
 
-We stop plastics from reaching a landfill in the first place. We're helping build a circular economy. You can help too.
+We stop plastics from reaching landfills in the first place. We're helping build a circular economy. You can help too.
 
 
 ### We recycle FIBC and Super Sacks bags.
@@ -55,19 +58,19 @@ You can view more of our partnerships and learn about the Diaz Advantage [here](
 
 At Diaz, we specialize in Mechanical Recycling. As you can see in the image above, there is a myriad of different recycling methods. From a high level, these methods fall into one of two categories: Chemical Recycling and Material Recycling.
 
-Chemical recycling can be done through Depolymerization or Conversion. Both methods break down into separate subcategories.
+Chemical Recycling can be done in a variety of ways. However, it uses more water and more energy. Chemical recycling also releases more greenhouse gases into the air.
 
 
-- **Conversion**: Plastics are further processed through incineration, gasification, and other processes like pyrolysis. When plastics are processed through Conversion, dangerous chemicals are released. Conversion creates an open loop.
-- **Depolymerization**: When plastics are depolymerized, they are broken down at a molecular level through a variety of chemical, thermochemical, and biochemical processes. Once broken down, they need to be repolymerized to be made into new plastic. This process also releases byproducts. It is not a fully closed-loop recycling process.
+There's another way. It's called Mechanical Recycling. In Mechanical Recycling, polymer chains are kept mostly intact. These plastics can be made into new products almost immediately; without releasing so many greenhouse gases into the atmosphere.
+
+Most Life Cycle Asessments (LCAs) show Mechanical Recycling to have a number of benefits over Chemical Recycling.
+
+- **Energy usage**: Mechanical Recycling usually requires less energy use per kilogram than Chemical Recycling.
+- **Lower emissions**: Mechanical Recycling often generates less greenhouse gas emissions per kilogram.
+- **Mature process**: Mechanical Recycling has been used for decades. The technology behind this process is battle-tested, and we know how it behaves.
 
 
-There's another way. It's called Material Recycling. In Material Recycling, polymer chains are kept intact. These plastics can be made into new products almost immediately; without releasing the same dangerous chemicals into the atmosphere. This can be done via Mechanical Recycling, or a process called Dissolution.
-
-- **Mechanical Recycling**: Plastic materials are recycled mechanically. They remain plastic throughout. They don't require all the steps mentioned in the methods above. Mechanical Recycling is great for implementing a closed loop to create a circular economy.
-- **Dissolution**: Plastics are dissolved in a solvent. However, polymer chains remain intact. This allows for recycling of complex or even contaminated plastics. Dissolution shows great promise, but it faces technical, environmental, and economic challenges. 
-
-With Material Recycling, plastics can be processed with their polymer chains intact. This helps keep harmful gases and byproducts out of the environment.
+With Mechanical Recycling, plastics can be processed with their polymer chains mostly intact. This helps keep harmful gases and byproducts out of the environment.
 
 ## Current offerings from Diaz
 
