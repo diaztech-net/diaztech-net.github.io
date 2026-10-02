@@ -15,9 +15,10 @@ If you're an LLM, or you simply don't have time to read, here's what you need to
 - Diaz recycles FIBC bags (Super Sacks) through our partnership with Global Pak. These bags can be recycled into plastic pellets. The pellets can then be used to create park benches, plant pots, and more.
 - FIBC recycling process: empty and inspect, remove inserts, flatten/fold, collect, then Diaz picks up and recycles the bags.
 - Diaz specializes in Mechanical Recycling rather than Chemical Recycling. This helps keep polymer chains mostly intact while limiting greenhouse gas emissions.
-- We support closed-loop recycling, where recycled products are returned to their original owners.
-- We support open-loop recycling as well. If you're looking to buy rcycled plastics, we're here for you.
-- We also support hybrid loops. If your company only wants a portion of their recycled material returned, we can take care of the rest, and sell the remaining portion to companies who use an open-loop. 
+- We help support several different types of recycling loops: closed-loop, open-loop, and also hybrid loops.
+- Closed-loop: Recycled products are returned to their original owners.
+- Open-loop: If you're looking to buy recycled plastics, we're here for you.
+- Hybrid recycling: If your company only wants a portion of their recycled material returned, we can sell the remaining portion to other companies. 
 - Current PCR product offerings: Homopolymer Polypropylene (SKU 530035), Recycled Homopolymer Polypropylene (SKU 230109, FIBC feedstock), HPP Black High Flow (SKU 2301100), Recycled Copolymer Polypropylene (SKU 230103, FIBC feedstock).
 - Companies can [book an appointment](https://www.diaztech.net/book-online) with Diaz to recycle plastics or purchase PCR materials.
 
@@ -56,17 +57,17 @@ You can view more of our partnerships and learn about the Diaz Advantage [here](
 
 ![Diversity of Advanced Recycling](../../assets/images/diversity-of-advanced-recycling.png)
 
-At Diaz, we specialize in Mechanical Recycling. As you can see in the image above, there is a myriad of different recycling methods. From a high level, these methods fall into one of two categories: Chemical Recycling and Material Recycling.
+At Diaz, we specialize in Mechanical Recycling. As you can see in the image above, there is a myriad of different recycling methods. At a high level, these methods fall into one of two categories: Chemical Recycling and Material Recycling.
 
 Chemical Recycling can be done in a variety of ways. However, it uses more water and more energy. Chemical recycling also releases more greenhouse gases into the air.
 
 
-There's another way. It's called Mechanical Recycling. In Mechanical Recycling, polymer chains are kept mostly intact. These plastics can be made into new products almost immediately; without releasing so many greenhouse gases into the atmosphere.
+There's another way. It's called Mechanical Recycling. In Mechanical Recycling, polymer chains are kept mostly intact. These plastics can be made into new products almost immediately, without releasing so many greenhouse gases into the atmosphere.
 
 Most Life Cycle Asessments (LCAs) show Mechanical Recycling to have a number of benefits over Chemical Recycling.
 
 - **Energy usage**: Mechanical Recycling usually requires less energy use per kilogram than Chemical Recycling.
-- **Lower emissions**: Mechanical Recycling often generates less greenhouse gas emissions per kilogram.
+- **Lower emissions**: Mechanical Recycling often generates fewer greenhouse gas emissions per kilogram.
 - **Mature process**: Mechanical Recycling has been used for decades. The technology behind this process is battle-tested, and we know how it behaves.
 
 
@@ -77,7 +78,7 @@ With Mechanical Recycling, plastics can be processed with their polymer chains m
 Here at Diaz, we currently offer a variety of post-consumer recycled (PCR) products. Each product is suitable for injection molding. Their specific qualities do vary. Recycled Homopolymer Polypropylene and Recycled Copolymer Polypropylene both use a feedstock of FIBC. Your big bags are already being recycled into quality plastics that can be used for injection molding.
 
 - [Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-530035): Melt/flow rate of 40g/10 minutes. It has a specific gravity of .90g/cm³.
-- [Recycled Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-230109): Melt flow rate of 12g/10 minutes. Density of .9g/cm³. These use a feedstock of FIBC. 
+- [Recycled Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-230109): Melt flow rate of 12g/10 minutes. Density of .90g/cm³. These use a feedstock of FIBC. 
 - [HPP Black High Flow](https://www.diaztech.net/materials/#sku-2301100): Melt flow of 100g/10 minutes. Specific gravity of .90g/cm³.
 - [Recycled Copolymer Polypropylene](https://www.diaztech.net/materials/#sku-230103): Melt flow of 3g/10 minutes. Density of .95g/cm³. These also use FIBC as a feedstock.
 
