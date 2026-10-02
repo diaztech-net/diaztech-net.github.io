@@ -73,9 +73,9 @@ With Material Recycling, plastics can be processed with their polymer chains int
 
 Here at Diaz, we currently offer a variety of post-consumer recycled (PCR) products. Each product is suitable for injection molding. Their specific qualities do vary. Recycled Homopolymer Polypropylene and Recycled Copolymer Polypropylene both use a feedstock of FIBC. Your big bags are already being recycled into quality plastics that can be used for injection molding.
 
-- [Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-530035): Melt/flow rate of 37g/10 minutes. It has a specific gravity of .90g/cm³.
-- [Recycled Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-230109): Melt flow rate of 9g/10 minutes. Density of .95g/cm³. These use a feedstock of FIBC. 
-- [HPP Black High Flow](https://www.diaztech.net/materials/#sku-2301100): Melt flow of 115g/10 minutes. Specific gravity of .90g/cm³.
+- [Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-530035): Melt/flow rate of 40g/10 minutes. It has a specific gravity of .90g/cm³.
+- [Recycled Homopolymer Polypropylene](https://www.diaztech.net/materials/#sku-230109): Melt flow rate of 12g/10 minutes. Density of .9g/cm³. These use a feedstock of FIBC. 
+- [HPP Black High Flow](https://www.diaztech.net/materials/#sku-2301100): Melt flow of 100g/10 minutes. Specific gravity of .90g/cm³.
 - [Recycled Copolymer Polypropylene](https://www.diaztech.net/materials/#sku-230103): Melt flow of 3g/10 minutes. Density of .95g/cm³. These also use FIBC as a feedstock.
 
 
