@@ -40,39 +40,29 @@ Recyclable foams can be found all over the world. EPP, EPS, and EPE comprise som
 
 ### Expanded Polypropylene (EPP)
 
-![Expanded Polypropylene](foam-recycling-images/expanded-polypropylene.png)
+![Expanded Polypropylene](../assets/images/expanded-polypropylene.png)
 
 EPP is commonly found in automotive dunnage, playground flooring and many other places. EPP is incredibly strong. It is so strong that many companies use it to make bumper cores. When the bumper of your car absorbs an impact, that's EPP doing its job.
 
 <!--EPP-automotive dunnage, absorption systems for automotive bumpers, flooring for playgrounds etc.-->
 ### Expanded Polystyrene
 
-![Expanded Polystyrene](foam-recycling-images/expanded-polystyrene.png)
+![Expanded Polystyrene](../assets/images/expanded-polystyrene.png)
 
 EPS is everywhere. From foam cups to restaurant take-home boxes to appliance padding and packaging inserts, you probably see it day in and day out.
 
-<!--EPS-refrigerated items, meat packing trays, coffee cups-->
 ### Expanded Polyethylene
 
-![Expanded Polyethylene](foam-recycling-images/expanded-polyethylene.png)
+![Expanded Polyethylene](../assets/images/expanded-polyethylene.png)
 
 EPE is used everywhere else. When you buy computer parts or circuit boards, the cushions are made of EPE. Packaging inserts for fragile items are often made from EPE.
 
-<!--EPE-everything else, corner pack, found everywhere-->
 ## Where are all of these products found?
 
 
 There's one place you can find all of these products: landfills. According to <a rel="nofollow" href="https://www.litterfreeva.org/eps">Litter Free Virginia</a>, EPS alone accounts for an estimated 30% of trash volume in US landfills alone. The actual real-world number is a hotly debated topic, but it detracts from the point.
 
 All of these foams are lightweight and, in theory, highly recyclable. Their low density changes the calculus. They contain so much air that they are difficult to recycle profitably. Often, they wind up taking more than their fair share in the landfill instead (even if the actual number is lower than Litter Free Virginia's estimate).
-
-<!--go into estimate on foam products in landfills-->
-
-<!--
-- bullet list of places where each of these are found
-- emotionally sinking paragraph about landfills
--->
-
 
 
 ## How can you recycle EPP, EPS, and EPE with Diaz?
