@@ -48,7 +48,7 @@ const partners = [
       <h1>The Diaz Advantage</h1>
       <h2>Our Advantages</h2>
       
-      <div class="grid grid-3">
+      <div class="flyers">
         <Image src={superSacks} alt="Super Sacks Recycling Flyer" width={520} loading="eager" />
         <Image src={foamFlyer} alt="Foam Recycling Flyer" width={520} loading="eager" />
       </div>
@@ -78,3 +78,24 @@ const partners = [
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .flyers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    margin-bottom: 2rem;
+  }
+
+  .flyers :global(img) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 700px) {
+    .flyers {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
