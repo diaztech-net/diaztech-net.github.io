@@ -40,20 +40,20 @@ Recyclable foams can be found all over the world. EPP, EPS, and EPE comprise som
 
 ### Expanded Polypropylene (EPP)
 
-![Expanded Polypropylene](../assets/images/expanded-polypropylene.png)
+![Expanded Polypropylene](../../assets/images/expanded-polypropylene.png)
 
 EPP is commonly found in automotive dunnage, playground flooring and many other places. EPP is incredibly strong. It is so strong that many companies use it to make bumper cores. When the bumper of your car absorbs an impact, that's EPP doing its job.
 
 <!--EPP-automotive dunnage, absorption systems for automotive bumpers, flooring for playgrounds etc.-->
 ### Expanded Polystyrene
 
-![Expanded Polystyrene](../assets/images/expanded-polystyrene.png)
+![Expanded Polystyrene](../../assets/images/expanded-polystyrene.png)
 
 EPS is everywhere. From foam cups to restaurant take-home boxes to appliance padding and packaging inserts, you probably see it day in and day out.
 
 ### Expanded Polyethylene
 
-![Expanded Polyethylene](../assets/images/expanded-polyethylene.png)
+![Expanded Polyethylene](../../assets/images/expanded-polyethylene.png)
 
 EPE is used everywhere else. When you buy computer parts or circuit boards, the cushions are made of EPE. Packaging inserts for fragile items are often made from EPE.
 
