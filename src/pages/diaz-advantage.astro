@@ -1,5 +1,8 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import superSacks from "../assets/images/blog-super-sacks-project.webp";
+import foamFlyer from "../assets/images/foam-recycling-flyer.png";
 
 const advantages = [
   {
@@ -8,11 +11,7 @@ const advantages = [
   },
   {
     title: "Resin Diversity",
-    text: "Several polypropylene grades with multiple PCR sources, available in pencil prime and wide spec grades.",
-  },
-  {
-    title: "Brand Prime",
-    text: "Celanese, Evonik, INEOS, Arkema, ExxonMobil, Phillips, LYB, Formosa.",
+    text: "Several polypropylene grades with multiple PCR sources, available with pencil prime and wide spec grades.",
   },
   {
     title: "Compounding Assets",
@@ -30,7 +29,6 @@ const advantages = [
 
 const partners = [
   { name: "RTi", role: "Category Management and Optimization" },
-  { name: "Enpol", role: "Virgin Resin Supplier partnership" },
   {
     name: "Summit Polymers, Valley and Adirondack Plastics",
     role: "Scrap audit and recycling initiatives",
@@ -48,6 +46,11 @@ const partners = [
     <div class="container">
       <h1>The Diaz Advantage</h1>
       <h2>Our Advantages</h2>
+      
+      <div class="flyers">
+        <Image src={superSacks} alt="Super Sacks Recycling Flyer" width={520} loading="eager" />
+        <Image src={foamFlyer} alt="Foam Recycling Flyer" width={520} loading="eager" />
+      </div>
       <div class="grid grid-3">
         {advantages.map((a) => (
           <div class="card">
@@ -74,3 +77,24 @@ const partners = [
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .flyers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    margin-bottom: 2rem;
+  }
+
+  .flyers :global(img) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 700px) {
+    .flyers {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
