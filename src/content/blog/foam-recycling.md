@@ -52,7 +52,7 @@ EPS is everywhere. From foam cups to restaurant take-home boxes to appliance pad
 
 ### Expanded Polyethylene
 
-![Expanded Polyethylene](../../assets/images/expanded-polyethylene.png)
+![Expanded Polyethylene](../../assets/images/epe-packing-insert.png)
 
 EPE is used everywhere else. When you buy computer parts or circuit boards, the cushions are made of EPE. Packaging inserts for fragile items are often made from EPE.
 
