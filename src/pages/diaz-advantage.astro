@@ -53,7 +53,7 @@ const partners = [
         <Image src={foamFlyer} alt="Foam Recycling Flyer" width={520} loading="eager" />
       </div>
 
-      <div>
+      <div class="landfillCostMap">
         <h2>Landfill Cost Map</h2>
         <Image src={landfillCostMap} alt="US landfill costs" loading="eager" />
       </div>
@@ -96,6 +96,15 @@ const partners = [
   .flyers :global(img) {
     width: 100%;
     height: auto;
+  }
+
+  .landfillCostMap {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 700px) {
