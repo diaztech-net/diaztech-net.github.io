@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import superSacks from "../assets/images/blog-super-sacks-project.webp";
 import foamFlyer from "../assets/images/foam-recycling-flyer.png";
+import landfillCostMap from "../assets/images/landfill-cost-map.png";
 
 const advantages = [
   {
@@ -60,6 +61,8 @@ const partners = [
           </div>
         ))}
       </div>
+      <h3>Landfill Cost Map</h3>
+      <Image src={landfillCostMap} alt="US landfill costs" loading="eager />
     </div>
   </section>
 
