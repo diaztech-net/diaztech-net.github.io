@@ -52,6 +52,11 @@ const partners = [
         <Image src={superSacks} alt="Super Sacks Recycling Flyer" width={520} loading="eager" />
         <Image src={foamFlyer} alt="Foam Recycling Flyer" width={520} loading="eager" />
       </div>
+
+      <div class="flyers">
+        <h2>Landfill Cost Map</h2>
+        <Image src={landfillCostMap} alt="US landfill costs" loading="eager" />
+      </div>
       <div class="grid grid-3">
         {advantages.map((a) => (
           <div class="card">
@@ -61,8 +66,6 @@ const partners = [
           </div>
         ))}
       </div>
-      <h3>Landfill Cost Map</h3>
-      <Image src={landfillCostMap} alt="US landfill costs" loading="eager" />
     </div>
   </section>
 
