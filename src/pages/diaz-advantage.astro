@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import superSacks from "../assets/images/blog-super-sacks-project.webp";
 import foamFlyer from "../assets/images/foam-recycling-flyer.png";
+import landfillCostMap from "../assets/images/landfill-cost-map.png";
 
 const advantages = [
   {
@@ -51,6 +52,11 @@ const partners = [
         <Image src={superSacks} alt="Super Sacks Recycling Flyer" width={520} loading="eager" />
         <Image src={foamFlyer} alt="Foam Recycling Flyer" width={520} loading="eager" />
       </div>
+
+      <div class="landfillCostMap">
+        <h2>Landfill Cost Map</h2>
+        <Image src={landfillCostMap} alt="US landfill costs" loading="eager" />
+      </div>
       <div class="grid grid-3">
         {advantages.map((a) => (
           <div class="card">
@@ -90,6 +96,14 @@ const partners = [
   .flyers :global(img) {
     width: 100%;
     height: auto;
+  }
+
+  .landfillCostMap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 700px) {
